@@ -13,4 +13,42 @@ body {
     padding: 20px;
 }
 
+/* header */
+header {
+    background-color: #93d0f4;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+/* Reduce padding inside table cells */
+table td, table th, table tr {
+    padding: 10px 10px;   /* adjust to your preference */
+    text-align: left;
+}
+
+/* Optional: remove extra margins around the table */
+table {
+    border-collapse: collapse;  /* cleaner borders */
+    margin: 0;
+    border-color: #ddd;
+    padding: 10px;
+    width: 100%;
+}
+
+a {
+    color: #0079c1;
+}
+
+footer {
+    background-color: #93d0f4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+
 /* Add in your own customisations */

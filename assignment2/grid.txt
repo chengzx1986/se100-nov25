@@ -1,0 +1,71 @@
+1)  grid-column-start: 3;
+
+2)  grid-column-start: 5;
+
+3)  grid-column-end: span 2;
+
+4)  grid-column-end: span 4;
+
+5)  grid-column-start: 3; grid-column-end: span 2;
+
+6)  grid-column-start: span 3;
+
+7)  grid-column-end: 4;
+
+8)  grid-column-end: -2;
+
+9)  grid-column: 4 / 6;
+
+10) grid-column: 2 / -1;
+
+11) grid-row-start: 3;
+
+12) grid-row: 3 / span 3;
+
+13) grid-row: span 2 / 6;
+
+14) grid-row: 2 / 5; grid-column: 2 / 5;
+
+15) grid-area: 2 / 3 / 5 / 6;
+
+16) grid-template-columns: repeat(8, 12.5%);
+
+17) grid-template-columns: 1fr 5fr;
+
+18) grid-template-columns: 50px 1fr 1fr 1fr 50px;
+
+19) grid-template-columns: repeat(3, 1fr 3fr 1fr);
+
+20) grid-template-rows: repeat(8, 12.5%);
+
+21) grid-template: 60% 40% / 200px 1fr;
+
+22) grid-template: 1fr 50px / 20% 1fr;
+
+23) grid-template-areas: “water water water” “. carrots .” “. . poison”;
+
+24) grid-area: water;
+
+25) grid-area: poison;
+
+26) grid-template-areas: “poison . .” “water water water” “. . carrots”;
+
+27) align-items: end;
+
+28) justify-items: center;
+
+29) align-self: center;
+
+30) justify-self: start;
+
+31) justify-content: end;
+
+32) align-content: center;
+
+33) align-content: space-around;
+
+34) justify-content: space-between;
+
+35) grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3,
+    1fr); grid-template-areas: “water water water” “. carrots .” “.
+    poison .”;
